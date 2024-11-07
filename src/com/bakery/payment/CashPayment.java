@@ -1,4 +1,3 @@
-// src/com/bakery/payment/CashPayment.java
 package com.bakery.payment;
 
 public class CashPayment implements PaymentStrategy {
