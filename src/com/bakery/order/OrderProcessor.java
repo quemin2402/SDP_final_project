@@ -1,4 +1,3 @@
-// src/com/bakery/order/OrderProcessor.java
 package com.bakery.order;
 
 import com.bakery.model.BakeryItem;
@@ -12,7 +11,6 @@ public class OrderProcessor {
             System.out.println("Preparing " + item.getName() + " (" + item.getPreparationTime() + " min)...");
         }
 
-        // Уведомляем всех наблюдателей о завершении заказа
         OrderNotifier.getInstance().notifyObservers(order);
     }
 }

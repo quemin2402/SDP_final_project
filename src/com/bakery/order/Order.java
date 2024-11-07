@@ -1,4 +1,3 @@
-// src/com/bakery/order/Order.java
 package com.bakery.order;
 
 import java.util.ArrayList;

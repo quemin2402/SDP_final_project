@@ -1,4 +1,3 @@
-// src/com/bakery/order/OrderItem.java
 package com.bakery.order;
 
 import com.bakery.model.BakeryItem;
